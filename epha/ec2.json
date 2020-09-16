@@ -1,0 +1,15 @@
+{
+   "AWSTemplateFormatVersion" : "2010-09-09",
+   "Description" : "Ec2 block device mapping",
+   "Resources" : {
+      "myfirstEC2Instance" : {
+         "Type" : "AWS::EC2::Instance",
+         "Properties" : {
+            "ImageId" : "ami-08cec7c429219e339",
+            "KeyName" : "BINIYAM1221",
+            
+         
+      }
+   }
+}   
+}     
